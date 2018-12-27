@@ -1,9 +1,10 @@
 
-def main():
-	n=input()
-	a=0
-	for i in n:
-		if i.isalpha() :
-			a=a+1
-	print('No of numerics in a string is :%d'%a)
+
+str=input("Enter string:")
+count1=0
+for i in str:
+      if(i.isdigit()):
+            count1=count1+1;
+print("The number of digits is:");
+print(count1)
 
