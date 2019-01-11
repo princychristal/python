@@ -1,5 +1,5 @@
-time = input()
-hour = time //60
-time %= 60
-minutes = time // 1
-print("h:m-> %d:%d" % (hour,minutes))
+t = input()
+h = t //60
+t %= 60
+m = t // 1
+print("h:m-> %d:%d" % (h,m))
