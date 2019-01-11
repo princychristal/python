@@ -1,8 +1,8 @@
 import sys
-def stat():
-	(a,b,c)=map(int,sys.stdin.readline().split())
-	print((a*b)%c);
+def sat():
+	(x,y,z)=map(int,sys.stdin.readline().split())
+	print((x*y)%z);
 try:
-	stat()
+	sat()
 except:
 	print('invalid');
